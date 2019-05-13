@@ -1,5 +1,6 @@
 import React, { Component }from 'react';
 import './styles/App.css';
+import PokeList from './PokeList';
 
 class App extends Component {
   constructor() { //where we initialize our state
@@ -10,7 +11,7 @@ class App extends Component {
   render() {
     return(
       <div className="App">
-
+      <PokeList />
       </div>
     ); 
   }
